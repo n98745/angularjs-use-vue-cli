@@ -1,0 +1,34 @@
+.la-mask {
+    position: fixed;
+    top : 0;
+    left : 0;
+    width: 100%;
+    height: 100%;
+    z-index: 102;
+
+
+
+    .la-box {
+        text-align: center;
+        width: 2.5rem;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 0.15rem;
+        padding: 0.4rem 0.2rem;
+
+        img {
+            width: 0.7rem;
+            border-radius: 0.1rem;
+        }
+        p {
+            color: #fff;
+            font-size: 0.3rem;
+            margin-top: 0.2rem;
+        }
+    }
+
+    &.flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
